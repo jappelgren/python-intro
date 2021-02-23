@@ -52,7 +52,7 @@ Here is a list of things you should focus on:
 
      | Javascript type | Python Type |
      | --------------- | ----------- |
-     | string          | strng       |
+     | string          | str         |
      | number          | int         |
      | number(decimal) | float       |
      | boolean         | bool        |
