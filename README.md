@@ -50,14 +50,14 @@ Here is a list of things you should focus on:
    - Logging to your console is `print(x)`. This will print 5 to our console.
    - Types are a little different than Javascript as well:
 
-| Javascript type | Python Type |
-| --------------- | ----------- |
-| string          | strng       |
-| number          | int         |
-| number(decimal) | float       |
-| boolean         | bool        |
-| array           | list        |
-| object          | dictionary  |
+    | Javascript type | Python Type |
+    | --------------- | ----------- |
+    | string          | strng       |
+    | number          | int         |
+    | number(decimal) | float       |
+    | boolean         | bool        |
+    | array           | list        |
+    | object          | dictionary  |
 
 - There are also tuples which are like immutable lists, and don't really exist in Javascript, but do in Typescript.
 
