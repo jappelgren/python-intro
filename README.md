@@ -103,7 +103,7 @@ Here is a list of things you should focus on:
         | Javascript | Python |
         | ---------- | ------ |
         | &&         | and    |
-        | ||         | or     |
+        | <code>||</code>       | or     |
         | !          | not    |
 
 
