@@ -21,12 +21,24 @@ If you're coming to Python from Javascript you will notice that it's similar and
 ```
 function counter(numArray) {
     for(number of numArray) {
-        console.log(number)
-    }
-}
+        console.log(number);
+    };
+};
+
+counter([1,2,3,4,5,6,7,8,9,10]);
+```
+
+Where as in Python you would write a function with the same purpose thusly:
+
+```
+def counter(number_array):
+    for number in number_array:
+        print(number)
 
 counter([1,2,3,4,5,6,7,8,9,10])
 ```
+
+Notice how there isn't a curly brace to be seen.  Python instead uses tabs to indicate when you are in or out of a function.  The tabs in Javascript are there becuase it makes the code more readable.  The tabs in Python are necessary for the code to function.
 
 ## Programming
 
