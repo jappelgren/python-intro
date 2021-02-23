@@ -102,11 +102,11 @@ Here is a list of things you should focus on:
 
    - One other note about the difference between Python and Javascript if statements is the 'and', 'or', and 'not' operators are different.
 
-     | Javascript | Python |
-     | ---------- | ------ |
-     | &&         | and    |
-     | &#124&#124 | or     |
-     | !          | not    |
+     | Javascript   | Python |
+     | ------------ | ------ |
+     | &&           | and    |
+     | &#124;&#124; | or     |
+     | !            | not    |
 
    For loops in Javascript can look like this (there are other methods as well):
 
