@@ -98,13 +98,13 @@ Here is a list of things you should focus on:
         return y
    ```
 
-        - One other note about the difference between Python and Javascript if statements is the 'and', 'or', and 'not' operators are different.
+    - One other note about the difference between Python and Javascript if statements is the 'and', 'or', and 'not' operators are different.
 
-         | Javascript | Python |
-         | ---------- | ------ |
-         | &&         | and    |
-         | ||         | or     |
-         | !          | not    |
+        | Javascript | Python |
+        | ---------- | ------ |
+        | &&         | and    |
+        | ||         | or     |
+        | !          | not    |
 
 
    For loops in Javascript can look like this (there are other methods as well):
