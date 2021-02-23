@@ -66,17 +66,18 @@ Here is a list of things you should focus on:
    - Tuples which are like immutable lists, and don't really exist in Javascript, but do in Typescript. ex. `my_tuple = 'hello', 'hi', 'what's up'`
    - While the items in a tuple are immutable, data types that can be mutated in a tuple can still be mutated. ex. `my_new_tuple = ([1,2,3,], [4,5,6,])`
      In this example there will always be two lists in this tuple but the values in those lists can be mutated.
-   - Sets are lists where all values need to be unique.  We can have a set like `['a', 'b', 'c']` but not `['a', 'b', 'c', 'a']` Sets exist in Javascript as well.
+   - Sets are lists where all values need to be unique. We can have a set like `['a', 'b', 'c']` but not `['a', 'b', 'c', 'a']` Sets exist in Javascript as well.
 
 3. Functions, conditionals, and loops:
 
-   - A function in Javascript is defined with the `function` keyword.  They are structured like the example below 
+   - A function in Javascript is defined with the `function` keyword. They are structured like the example below
 
    ```
    function functionName(parameter) {
        //things the function does
    }
    ```
+
    Python functions are declared with the `def` keyword and are structured like:
 
    ```
@@ -85,6 +86,7 @@ Here is a list of things you should focus on:
    ```
 
    Conditionals in Javascript look like this:
+
    ```
     if(x > y) {
         return x
@@ -98,14 +100,13 @@ Here is a list of things you should focus on:
         return y
    ```
 
-    - One other note about the difference between Python and Javascript if statements is the 'and', 'or', and 'not' operators are different.
+   - One other note about the difference between Python and Javascript if statements is the 'and', 'or', and 'not' operators are different.
 
-        | Javascript | Python |
-        | ---------- | ------ |
-        | &&         | and    |
-        | <code>||</code>       | or     |
-        | !          | not    |
-
+     | Javascript | Python |
+     | ---------- | ------ |
+     | &&         | and    |
+     | &#124&#124 | or     |
+     | !          | not    |
 
    For loops in Javascript can look like this (there are other methods as well):
 
@@ -121,6 +122,3 @@ Here is a list of things you should focus on:
     for number in array_of_numbers:
         print(number)
    ```
-
-
-
