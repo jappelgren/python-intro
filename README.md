@@ -38,7 +38,7 @@ def counter(number_array):
 counter([1,2,3,4,5,6,7,8,9,10])
 ```
 
-Notice how there isn't a curly brace to be seen.  Python instead uses tabs to indicate when you are in or out of a function.  The tabs in Javascript are there becuase it makes the code more readable.  The tabs in Python are necessary for the code to function.
+Notice how there isn't a curly brace to be seen. Python instead uses tabs to indicate when you are in or out of a function. The tabs in Javascript are there becuase it makes the code more readable. The tabs in Python are necessary for the code to function.
 
 ## Programming
 
@@ -46,20 +46,20 @@ Here is a list of things you should focus on:
 
 1. Variables & types :
 
-   - Variables are defined by typing out what the variable will be names and setting it equal to a value. There is no defining keyword like `let`, `const` or `var`.  Defining a variable in Python looks like this `x = 5`.  The variable x now exists and is equal to the number 5
-   - Logging to your console is `print(x)`.  This will print 5 to our console.
+   - Variables are defined by typing out what the variable will be names and setting it equal to a value. There is no defining keyword like `let`, `const` or `var`. Defining a variable in Python looks like this `x = 5`. The variable x now exists and is equal to the number 5
+   - Logging to your console is `print(x)`. This will print 5 to our console.
    - Types are a little different than Javascript as well:
-   | Javascript type | Python Type  |
-   | --------------- | ------------ |
-   | string          | strng        |
-   | number          | int          |
-   | number(decimal) | float        |
-   | boolean         | bool         |
-   | array           | list         |
-   | object          | dictionary   |
 
-   - There are also tuples which are like immutable lists, and don't really exist in Javascript, but do in Typescript.
+| Javascript type | Python Type |
+| --------------- | ----------- |
+| string          | strng       |
+| number          | int         |
+| number(decimal) | float       |
+| boolean         | bool        |
+| array           | list        |
+| object          | dictionary  |
 
+- There are also tuples which are like immutable lists, and don't really exist in Javascript, but do in Typescript.
 
 2. Data structures and loops:
 
