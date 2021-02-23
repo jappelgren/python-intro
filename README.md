@@ -16,7 +16,7 @@ Save the file and then in the terminal, make sure you are in your working direct
 
 ## Basic syntax
 
-If you're coming to Python from Javascript you will notice that it's similar and very different. No more curly braces and semi-colons, tabs are important. Writing a function to to print out all of the numbers in an array might look like this:
+If you're coming to Python from Javascript you will notice that it's similar and very different. No more curly braces and semi-colons, tabs are important. Writing a function to to print out all of the numbers in an array might look like this in Javascript:
 
 ```
 function counter(numArray) {
