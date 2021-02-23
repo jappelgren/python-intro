@@ -1,4 +1,4 @@
-# Exploring New Programming Languages
+# Python Basics For Javascript Developers
 
 ## Install
 
