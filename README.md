@@ -59,26 +59,68 @@ Here is a list of things you should focus on:
      | array           | list        |
      | object          | dictionary  |
 
-   - There are also tuples which are like immutable lists, and don't really exist in Javascript, but do in Typescript.
-
 2. Data structures and loops:
 
-   - arrays or lists of things
-   - objects
+   - As described above a list is a lot like a Javascript array, a comma seperated list of values ex. `[1,2,3]` or `['one', 'two', 'three']`
+   - A dictionary is similar to a Javascript object, a list of key value pairs ex `{'name': 'Justin', 'age': 39, pet: 'donkey'}`
+   - Tuples which are like immutable lists, and don't really exist in Javascript, but do in Typescript. ex. `my_tuple = 'hello', 'hi', 'what's up'`
+   - While the items in a tuple are immutable, data types that can be mutated in a tuple can still be mutated. ex. `my_new_tuple = ([1,2,3,], [4,5,6,])`
+     In this example there will always be two lists in this tuple but the values in those lists can be mutated.
+   - Sets are lists where all values need to be unique.  We can have a set like `['a', 'b', 'c']` but not `['a', 'b', 'c', 'a']` Sets exist in Javascript as well.
 
-3. Functions and conditionals:
+3. Functions, conditionals, and loops:
 
-   - write a function that takes arguments and returns a value (sum 2 numbers)
-   - operators - math, logical (and/or/not)
+   - A function in Javascript is defined with the `function` keyword.  They are structured like the example below 
 
-4. Pull things all together in one problem. Solve a whiteboard problem! (FizzBuzz, reverse a string or array, LeapYear, etc.) You can find our old whiteboard challenges in the syllabus repository!
+   ```
+   function functionName(parameter) {
+       //things the function does
+   }
+   ```
+   Python functions are declared with the `def` keyword and are structured like:
 
-## Put it together -
+   ```
+    def function_name(paramater):
+        #things the function does
+   ```
 
-After you are a bit familiar with the basic syntax, solve one of our "whiteboard" problems (FizzBuzz, reverse a string or array, LeapYear, etc.) in your new language! Do this on your computer, not on a whiteboard!
+   Conditionals in Javascript look like this:
+   ```
+    if(x > y) {
+        return x
+    }
+   ```
 
-### GitHub Repo
+   Conditionals in Python are similar:
 
-Setup a new GitHub repo with a README file that has instruction for installing the new language tools & resources your group found useful. Then add some notes with an example of each of the items listed above. Think of this Readme as a way to highlight your new language learning journey. This is a great way to show potential employers that you can tackle a challenge and learn a new language quickly!
+   ```
+    if x > y:
+        return y
+   ```
 
-When you are done, complete the assignment on the portal with your GitHub repo link.
+        - One other note about the difference between Python and Javascript if statements is the 'and', 'or', and 'not' operators are different.
+
+         | Javascript | Python |
+         | ---------- | ------ |
+         | &&         | and    |
+         | ||         | or     |
+         | !          | not    |
+
+
+   For loops in Javascript can look like this (there are other methods as well):
+
+   ```
+    for(number of arrayOfNumbers) {
+        console.log(number)
+    }
+   ```
+
+   Python's loops look like this:
+
+   ```
+    for number in array_of_numbers:
+        print(number)
+   ```
+
+
+
